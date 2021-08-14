@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header{
+    text-align: center;    
+}
+
+#menu{
+    height: 50px;
+}
+
+#menu ul{
+    text-decoration: none;
+    list-style: none;
+    line-height: 50px;
+    text-align: center;
+}
+
+#menu ul li a{
+    color: white;
+}
+
+#carreras-tecnicas {
+    height: 250px;
+}
+
+#lateral h2 {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.elemento {
+    height: 150px;
+    text-align: center;
+}
+
+.elemento > div {
+    height: 50px;
+}
+
+#carreras-tecnicas h2{
+    text-align: center;
+}
+
+.item {
+    height: 150px;
+    padding: 10px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    #menu{
+        height: auto;
+    }
+}
